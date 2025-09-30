@@ -1,0 +1,52 @@
+/* Style umum untuk body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  margin: 20px;
+}
+
+/* Semua h1 default berwarna biru */
+h1 {
+  color: blue;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* h1 di dalam #intro override jadi merah */
+#intro h1 {
+  color: red;
+  font-style: italic;
+}
+
+/* Style untuk paragraf umum */
+p {
+  color: #333;
+  background-color: #fff;
+  padding: 10px;
+  border-left: 4px solid #20A759;
+  border-radius: 5px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Tambahan layout intro */
+#intro {
+  background-color: #e8f5e9;
+  padding: 15px;
+  border: 1px solid #20A759;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Selektor ID lebih kuat daripada class */
+#paragraf-1 {
+  color: red;
+}
+
+/* Selektor class */
+.text-paragraf {
+  color: blue;
+}
